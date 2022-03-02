@@ -1,0 +1,54 @@
+*{
+	color: inherit;
+	font-size: inherit;
+	padding: 0;
+	margin: 0;
+
+	overflow-y: hidden;
+	overflow-x: hidden;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;       
+}
+
+li,
+ul,
+ol{
+	list-style: none;
+}
+
+body{
+	background: #536872;
+	color: white;
+	font-size: 30px;
+
+	font-family: 'Hubballi', cursive;
+}
+
+a{
+	text-decoration: none;
+}
+
+._container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+
+._ibg{
+	position: relative;
+}
+
+._ibg img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;	
+}
